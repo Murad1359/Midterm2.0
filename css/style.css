@@ -1,0 +1,146 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+/* Navbar */
+
+.nav{
+    width: 100%;
+    min-height: 721px;
+    background: transparent;
+    float: left;
+    background-image: url(../img/Rectangle\ 62.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.logo{
+    width: 100%;
+    min-height: 100px;
+    background: transparent;
+    float: left;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo span{
+    display: none;
+}
+
+.menu{
+    width: 100%;
+    min-height: 100px;
+    background: transparent;
+    float: left;
+}
+
+.menu ul{
+    padding: 0;
+    margin: 0;
+    float: right;
+    border-bottom: 2px solid rgba(37, 52, 118, 0.4);
+}
+
+.menu ul li{
+    list-style-type: none;
+    float: left;
+    margin: 25px 15px;
+    padding: 15px;
+    font-family: 'Zilla Slab', serif;
+    font-weight: 300;
+}
+
+.menu ul li:first-child{
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.fa-sort-desc{
+    margin-left: 5px;
+}
+
+.text{
+    font-family: 'Zilla Slab', serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 235px;
+}
+
+.text img{
+    padding: 13px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+.vectorl{
+    margin-right: 350px;
+}
+
+.vectorr{
+    margin-left: 350px;
+}
+
+.icon{
+    margin: 0 0 0 150px;
+}
+
+.icn{
+    background: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    float: left;
+    margin: 247px 10px 0 0;
+}
+
+.fa-instagram{
+    background-color: rgba(39, 174, 96, 1);
+    color: white;
+}
+
+.mid{
+    width: 100%;
+    height: 889px;
+    background: transparent;
+    float: left;
+    position: relative;
+}
+
+.text2{
+    width: 600px;
+    height: 432px;
+    background: white;
+    margin: 100px 0 0 150px;
+    float: left;
+    box-shadow: 58px 49px 84px rgba(0, 0, 0, 0.09);
+}
+
+.text2 h1{
+    margin: 56px 0 0 65px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.text2 p{
+    margin: 25px 0 0 65px;
+    font-family: 'Zilla Slab', serif;
+}
+
+.image{
+    width: 600px;
+    height: 400px;
+    background: transparent;
+    float: left;
+    margin-top: 190px ;
+    position: absolute;
+    right: 420px;
+    top: -50px;
+    z-index: -1;
+}
